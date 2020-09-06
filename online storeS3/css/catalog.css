@@ -1,0 +1,41 @@
+
+
+.container{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+   
+}
+.container h1{
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+/* itmes */ 
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid darkgray;
+    margin: 1.5rem;
+    padding: 1rem;
+
+}
+.itemPrice{
+    color: rgb(160, 30, 30);
+}
+.itemImage{
+    max-width: 50%;
+    height: 50%;
+}
+
+/* Categories */ 
+.flex-container{
+    display: flex;
+}
+.categorySection{
+    padding-top: 5rem;
+    padding-right: 4rem;
+}
